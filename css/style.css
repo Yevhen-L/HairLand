@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #b1adad;
-  padding-top: 40 px;
+  background-color: #4b4b4b;
+  padding-top: 100 px;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -10,8 +10,17 @@ body {
 .kbt {
   font-family: "Montserrat", sans-serif;
   background-color: #d4cfcf;
-  padding-top: 40px;
+  padding-top: 100px;
+  padding-right: 0px;
   padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 1040px;
+}
+
+.logo {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+}
+.linklogo {
+  text-decoration-line: none;
 }
