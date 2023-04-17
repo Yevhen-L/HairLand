@@ -6,74 +6,115 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>#HairLand</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png" />
-  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 
 <body class="body">
-  <header>
-    <a class="linklogo" href="https://www.instagram.com/polina_hair_land/#" target="_blank"
-      rel="noreferrer noopener"><span class="logo">#HairLand</span></a>
-    <h1 class="kbt">keratin botox teaching</h1>
-    <nav>
-      <ul>
-        <li><a href="#Portfolio">Portfolio</li>
-        <li><a href="#My works">My works</a></li>
-        <li><a href="#Reviews">Reviews</a></li>
-        <li><a href="#Contacts">Contacts</a></li>
+  <header class="header">
+
+    <a href="./index.html"><img src="./images/logo/HairLandLeibo.jpg" alt="logo" width="100" height="100"></a>
+    <!-- /* NAV */ -->
+    <nav class="nav">
+      <ul class="list">
+        <li><a class="link nav-header" href="./index.html">Studio</a></li>
+        <li><a class="link nav-header" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="link nav-header" href="">Contacts</a></li>
       </ul>
     </nav>
-    <address>
-      <li><a href="https://www.instagram.com/polina_hair_land/#" target="_blank" rel="noreferrer noopener">Instagram</a>
-      </li>
-      <li><a href="mailto:tomenkoksana@gmail.com">tomenkoksana@gmail.com</a></li>
-      <li><a href="tel:+380955776674">+380 95 577 66 74</a></li>
+    <!-- ADDRESS -->
+    <address class="address">
+      <ul class="list">
+        <li><a class="link address-header" href="https://www.instagram.com/polina_hair_land/#" class="link"
+            target="_blank" rel="noreferrer noopener">Instagram</a></li>
+        <li><a class="link address-header" href="mailto:tomenkoksana@gmail.com">tomenkoksana@gmail.com</a>
+        </li>
+        <li><a class="link address-header" href="tel:+380955776674">+380 95 577 66 74</a></li>
       </ul>
     </address>
   </header>
-  <main>
-    <!-- Portfolio -->
-    <section>
-      <h2>Portfolio</h2>
-      <ul>
-        <li>Portfolio</li>
-        <li>My works</a></li>
-        <li>Reviews</a></li>
-        <li>Contacts</a></li>
-      </ul>
-    </section>
-    <!-- My works -->
-    <section>
-      <h2>My works</h2>
-      <ul>
-        <li>Portfolio</li>
-        <li>My works</a></li>
-        <li>Reviews</a></li>
-        <li>Contacts</a></li>
-      </ul>
-    </section>
-    <!-- Reviews -->
-    <section>
-      <h2 id="Reviews">Reviews</h2>
-      <ul>
-        <li>Portfolio</li>
-        <li>My works</a></li>
-        <li>Reviews</a></li>
-        <li>Contacts</a></li>
-      </ul>
-    </section>
-    <!-- Contacts -->
-    <section>
-      <h2 id="Contacts">Contacts</h2>
-      <ul>
-        <li>Portfolio</li>
-        <li>My works</li>
-        <li>Reviews</li>
-        <li>Contacts</li>
-      </ul>
+
+  <main class="main">
+    <section class="futures">
+      <div class="futures-box container">
+        <h2 class="futures visually-hidden">Features</h2>
+        <ul class="list futures-list">
+          <li class="futures-item content-box">
+            <div futere-icon-box>
+              <a class="social-item" href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram-icon">
+                <svg class="social-icons" width="40px" height="40px">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </a>
+            </div>
+            <h3 class="futures-title">Strategy</h3>
+            <p class="futures-text">
+              Our goal is to identify the business problem to walk away with
+              the perfect and creative solution.
+            </p>
+            <ul class="social link">
+              <li><a class="social-item" href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram-icon">
+                  <svg class="social-icons" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social-item" href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter-icon">
+                  <svg class="social-icons" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social-item" href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook-icon">
+                  <svg class="social-icons" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+              <li><a class="social-item" href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin-icon">
+                  <svg class="social-icons" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a></li>
+            </ul>
+          </li>
+          <li class="futures-item content-box">
+            <h3 class="futures-title">Punctuality</h3>
+            <p class="futures-text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+
+          </li>
+          <li class="futures-item content-box">
+            <h3 class="futures-title">Diligence</h3>
+            <p class="futures-text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+
+          </li>
+          <li class="futures-item content-box">
+            <h3 class="futures-title">Technologies</h3>
+            <p class="futures-text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
+
+
+
+
+
+
+
   <footer></footer>
 </body>
 
