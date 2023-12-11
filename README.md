@@ -1,2 +1,2 @@
 # HairLand
- My projekt
+ My project
